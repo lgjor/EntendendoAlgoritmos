@@ -17,6 +17,7 @@ Implementações básicas em JavaScript realizadas a partir do livro Entendendo 
 
 - Pesquisa simples
 - Pesquisa binária
+- Notação Big O
 
 ### 2 Ordenação por seleção
 
