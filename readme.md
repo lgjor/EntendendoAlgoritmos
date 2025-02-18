@@ -10,6 +10,7 @@ Implementações básicas em JavaScript realizadas a partir do livro Entendendo 
 ## 📖 Referências
 
 - [Livro Entendendo Algoritmos de Aditya Y. Bhargava](https://amzn.to/4hXXllM)
+- [Repositório oficial do livro](https://github.com/egonschiele/grokking_algorithms?tab=readme-ov-file)
 
 ## 🗺 Índice
 
