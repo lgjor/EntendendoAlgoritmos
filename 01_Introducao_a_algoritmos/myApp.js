@@ -1,5 +1,5 @@
-import { pesquisaSimples } from './pesquisaSimples.js';
-import { pesquisaBinaria } from './pesquisaBinaria.js';
+import { linearSearch } from './linearSearch.js';
+import { binarySearch } from './binarySearch.js';
 import readline from 'readline';
 const myList = [1,3,5,7,9];
 console.log(" ");
@@ -27,7 +27,7 @@ rl.question('Qual o tipo de busca deseja realizar? ', (numero1) => {
         console.log(" ");
         rl.question('Qual o item deseja buscar? ', (numero2) => {
             const numero = parseInt(numero2);
-            console.log(`Index do item buscado no array: ${pesquisaSimples(myList, numero)}`);
+            console.log(`Index do item buscado no array: ${linearSearch(myList, numero)}`);
             rl.close();
         });
     }
@@ -37,7 +37,7 @@ rl.question('Qual o tipo de busca deseja realizar? ', (numero1) => {
         console.log(" ");
         rl.question('Qual o item deseja buscar? ', (numero2) => {
             const numero = parseInt(numero2);
-            console.log(`Index do item buscado no array: ${pesquisaBinaria(myList, numero)}`);
+            console.log(`Index do item buscado no array: ${binarySearch(myList, numero)}`);
             rl.close();
         });
     }
