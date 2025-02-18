@@ -3,7 +3,8 @@ export function pesquisaBinaria(lista, item){
     let baixo = 0;
     let alto = lista.length - 1;
     while(baixo <= alto){
-        meio = Math.floor((baixo+alto)/2);
+        // Math.floor arredonda para baixo e math.ceil arredonda para cima, ambos os arredondamentos são válidos.
+        meio = Math.ceil((baixo+alto)/2);
         let chute = lista[meio];
         if(chute === item){
             return meio;
