@@ -1,4 +1,4 @@
-export function pesquisaBinaria(lista, item){
+export function binarySearch(lista, item){
     let meio =0;
     let baixo = 0;
     let alto = lista.length - 1;
