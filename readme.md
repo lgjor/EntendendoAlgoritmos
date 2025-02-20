@@ -16,11 +16,20 @@ Implementações básicas em JavaScript realizadas a partir do livro Entendendo 
 
 ### 1 Introdução a algoritmos
 
-- Pesquisa simples
-- Pesquisa binária
+- Pesquisa simples (On)
+- Pesquisa binária (On log n)
 - Notação Big O
 
 ### 2 Ordenação por seleção
+
+- Array
+- Lista ligada - Linked List
+  - Simplesmente ligada
+  - Duplamente ligada
+
+![arrayXlinkedlist](./images/arrayXlinkedlist.png)
+
+- Selection sort ( On² )
 
 ### 3 Recursão
 
@@ -34,4 +43,4 @@ Implementações básicas em JavaScript realizadas a partir do livro Entendendo 
 
 ### 8 Algoritmos gulosos
 
-### 9 Programação dinâmica 
+### 9 Programação dinâmica
