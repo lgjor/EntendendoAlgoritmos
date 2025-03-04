@@ -41,6 +41,15 @@ Implementações básicas em JavaScript realizadas a partir do livro Entendendo 
 
 ### 4 Quicksort
 
+- Dividir para conquistar
+- Somar elementos do array
+  - Loop O(n)
+  - Recursão O(log n)
+- Quicksort
+  - Pior caso: Pegando o primeiro elemento como pivô O(n²)
+  - Caso médio: Pegando elemento aleatório como pivô O(n log n)
+  - Melhor caso: Pegando elemento central como pivô - Método partition O(n log n)
+
 ### 5 Tabelas hash
 
 ### 6 Pesquisa em largura
