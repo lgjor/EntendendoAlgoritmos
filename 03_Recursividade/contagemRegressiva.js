@@ -7,9 +7,11 @@ function contagemRegressiva(n) {
 function contagemRegressivaRecursiva(n) {
     console.log(n);
     if (n <= 0) {
+        // caso base
         return;
     }
     else {
+         // caso recursivo
         contagemRegressivaRecursiva(n - 1);
     }
 }
