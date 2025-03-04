@@ -1,10 +1,10 @@
-function contagemRegressiva(n) {
+function countDown(n) {
     for (let i = n; i >= 0; i--) {
         console.log(i);
     }
 }
 
-function contagemRegressivaRecursiva(n) {
+function recursiveCountdown(n) {
     console.log(n);
     if (n <= 0) {
         // caso base
@@ -16,6 +16,6 @@ function contagemRegressivaRecursiva(n) {
     }
 }
 console.log("Regressiva");
-contagemRegressiva(10);
+countDown(10);
 console.log("Recursiva");
-contagemRegressivaRecursiva(10);
+recursiveCountdown(10);
