@@ -33,7 +33,10 @@ Implementações básicas em JavaScript realizadas a partir do livro Entendendo 
 
 ### 3 Recursão
 
-### 4 Quicksort 
+- Recursão
+- Pilha
+
+### 4 Quicksort
 
 ### 5 Tabelas hash
 
