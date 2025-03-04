@@ -35,6 +35,9 @@ Implementações básicas em JavaScript realizadas a partir do livro Entendendo 
 
 - Recursão
 - Pilha
+  - Push
+  - Pop
+  - Pilha de chamada recursiva
 
 ### 4 Quicksort
 
