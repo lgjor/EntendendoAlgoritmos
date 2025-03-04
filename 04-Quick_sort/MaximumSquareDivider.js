@@ -2,8 +2,6 @@ const altura = 1680;
 const largura = 640;
 
 function MaximumSquareDivider(altura, largura) {
-    let menor = 0;
-    let maior = 0;
     if ( largura > altura ) {
         largura = largura -  altura;
         return MaximumSquareDivider (altura, largura);
