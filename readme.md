@@ -34,7 +34,7 @@ Implementações básicas em JavaScript realizadas a partir do livro Entendendo 
 ### 3 Recursão
 
 - Recursão
-- Pilha
+- Pilha (Last in, Fist out)
   - Push
   - Pop
   - Pilha de chamada recursiva
