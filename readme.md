@@ -52,7 +52,19 @@ Implementações básicas em JavaScript realizadas a partir do livro Entendendo 
 
 ### 5 Tabelas hash
 
-### 6 Pesquisa em largura
+### 6 Pesquisa em largura (Teoria dos grafos)
+
+- Um modelo de grafo é um conjunto de conexões
+- Vértices
+- Arestas
+- Problema do caminho mínimo
+- Pesquisa em largura
+  - Existe algum caminho do vértice A até o B?
+  - Qual o caminho mínimo do vértice A até o B?
+  - Filas (First In, First Out)
+    - Enqueue (Enfileirar) 
+    - Dequeue (Desenfileirar)
+- Transformer
 
 ### 7 Algoritmo de Dijkstra
 
