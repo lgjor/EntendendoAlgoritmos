@@ -58,7 +58,7 @@ Implementações básicas em JavaScript realizadas a partir do livro Entendendo 
 - Vértices
 - Arestas
 - Problema do caminho mínimo
-- Pesquisa em largura
+- Pesquisa em largura O(v+a)
   - Existe algum caminho do vértice A até o B?
   - Qual o caminho mínimo do vértice A até o B?
   - Filas (First In, First Out)
